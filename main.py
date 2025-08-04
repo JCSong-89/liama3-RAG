@@ -39,3 +39,4 @@ now = time.time()
 response = query_engine.query("What is instruction finetuning?")
 print(f"Response Generated: {response}")
 print(f"Elapsed: {round(time.time() - now, 2)}s")
+

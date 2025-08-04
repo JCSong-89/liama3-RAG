@@ -6,7 +6,7 @@ class EmbedSettings:
   def __init__(self):
     self.embed_model = FastEmbedEmbedding(model_name=FAST_EMBED_MODEL_NAME)
     self.chunk_size = 512
-
+    
   def set_and_get_liama_settings(self):
     print("Setting Llama settings...")
     Settings.embed_model = self.embed_model

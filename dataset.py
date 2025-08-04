@@ -8,4 +8,3 @@ class DataSetter:
   def load_dataset(self):
     print("Loading dataset...")
     return SimpleDirectoryReader(self.dataset_dir).load_data()
-
